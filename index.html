@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מבוא למערכות מידע וניהול נתונים</title>
+    <!-- קובץ CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- קובץ JS -->
+    <script src="scripts.js"></script>
+    <!-- React JS -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- מחרוזת שיחה או תפריט -->
+        <h1>מבוא למערכות מידע וניהול נתונים</h1>
+    </header>
+    <nav>
+        <!-- תפריט ניווט -->
+        <ul>
+            <li><a href="#introduction">הקדמה</a></li>
+            <li><a href="#concepts">בנאי מונחים</a></li>
+            <li><a href="#applications">Applications</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- פירוט עניינים -->
+        <section id="introduction">
+            <h2>הקדמה</h2>
+            <p>בשלאים, הקראות...</p>
+        </section>
+
+        <section id="concepts">
+            <h2>בנאי מונחים</h2>
+            <p>בשלאים, הקראות...</p>
+        </section>
+
+        <section id="applications">
+            <h2>Applications</h2>
+            <p>בשלאים, הקראות...</p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- תחתון -->
+        © 2023 המורשת המרכזית לעתיד
+    </footer>
+
+    {/* JSX ו React */}
+    <div id="root"></div>
+    <script type="text/babel">
+      ReactDOM.render(
+        <React.StrictMode>
+          <h1>Hello, world!</h1>
+        </React.StrictMode>,
+        document.getElementById('root')
+      );
+    </script>
+
+</body>
+</html>
